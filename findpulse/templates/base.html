@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %} Find Pulse {% endblock %}</title>
+        <link rel="stylesheet" href="{% 'static/style.css' %}">
+    </head>
+    <head>
+        <header>
+            <h1>{% block h1 %} Find Pulse {% endblock %}</h1>
+            <nav>
+            </nav>
+        </header>
+        <main>
+            {% block main %}
+            {% endblock %}
+        </main>
+        <footer>© Find Pulse - 2025</footer>
+    </head>
+</html>

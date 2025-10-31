@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} Perfil {% endblock %}
+{% block h1 %} Perfil {% endblock %}
+{% block main %} 
+<div>
+    <h2>Bem vindo {{ Perfil.nome }}</h2>
+    <img src="{% 'perfil.foto.url' %}" alt="foto de perfil">
+    <p>{{ perfil.email }}</p>
+    <p>{{ perfil.contacto }}</p>
+    <p>{{ perfil.criado_em }}</p>
+    <p>{{ perfil. }}</p>
+    <p>{{ perfil.email }}</p>
+</div>
+{% endblock %}
